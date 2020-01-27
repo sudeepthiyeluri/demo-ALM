@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="50f7e005-16c0-42c1-8cd9-39567468b435" ItemType="BusinessFlow" CreatedBy="Sudeepthi.Y" Created="202001271316" GingerVersion="3.5.0.0" Version="5" LastUpdateBy="Satvik.b" LastUpdate="202001271417" />
+<GingerRepositoryItem><Header ItemGuid="50f7e005-16c0-42c1-8cd9-39567468b435" ItemType="BusinessFlow" CreatedBy="Sudeepthi.Y" Created="202001271316" GingerVersion="3.5.0.0" Version="9" LastUpdateBy="Satvik.b" LastUpdate="202001271421" />
 <BusinessFlow Guid="50f7e005-16c0-42c1-8cd9-39567468b435" Name="web" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="00ce7e01-e9e6-4d5a-955d-f2c164918ed4" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
@@ -7,7 +7,7 @@
 <ActBrowserElement Active="True" Description="Browser Action" Guid="9050b971-4aa8-4e08-9b73-aca032bb11ed" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="9eb298c6-0a9c-4406-85ae-2f2f445f48fd" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
-<ActInputValue Guid="6e42f79d-0aeb-4a3f-81b0-fa7407fa36ab" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="www.google.co.in" />
+<ActInputValue Guid="6e42f79d-0aeb-4a3f-81b0-fa7407fa36ab" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="www.google.co.in/" />
 <ActInputValue Guid="e407da48-00ff-4deb-92f3-a2bd6426e1c7" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <ActInputValue Guid="19ce33a5-a2b9-4e80-b546-aa1179af9819" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
 <ActInputValue Guid="c9e20af4-b951-414b-ab79-424dda7f3b69" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
