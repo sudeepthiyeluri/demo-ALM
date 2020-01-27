@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="50f7e005-16c0-42c1-8cd9-39567468b435" ItemType="BusinessFlow" CreatedBy="Sudeepthi.Y" Created="202001271316" GingerVersion="3.5.0.0" Version="9" LastUpdateBy="Satvik.b" LastUpdate="202001271421" />
+<GingerRepositoryItem><Header ItemGuid="50f7e005-16c0-42c1-8cd9-39567468b435" ItemType="BusinessFlow" CreatedBy="Sudeepthi.Y" Created="202001271316" GingerVersion="3.5.0.0" Version="10" LastUpdateBy="Sudeepthi.Y" LastUpdate="202001271427" />
 <BusinessFlow Guid="50f7e005-16c0-42c1-8cd9-39567468b435" Name="web" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="00ce7e01-e9e6-4d5a-955d-f2c164918ed4" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
@@ -14,6 +14,12 @@
 <ActInputValue Guid="3040f09f-b82c-4452-bc90-0eee98234abc" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActBrowserElement>
+<ActUIElement Active="True" Description="UIElement Action" Guid="26f669f6-a98d-4b0c-a49c-6269070c867f" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="5216b8ad-725c-4e28-a4dd-cbfcb43ea433" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="9aed5e14-d90f-4d5c-bcb2-d9f552fa4c58" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
 </Acts>
 </Activity>
 </Activities>
@@ -21,7 +27,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="44a2c138-3d27-4963-a0c9-dfd270141422" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="00ce7e01-e9e6-4d5a-955d-f2c164918ed4" ActivityName="Activity 1" Guid="3b6072f8-e3b5-41ac-96a2-4c07030382df" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="00ce7e01-e9e6-4d5a-955d-f2c164918ed4" ActivityName="Activity 1" Guid="0ece850d-47a1-43c9-806c-0a40e668331c" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
