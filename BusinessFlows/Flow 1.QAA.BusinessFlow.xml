@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="3ddbc9eb-0f33-4a90-9e07-e0750f46b797" ItemType="BusinessFlow" CreatedBy="Sudeepthi.Y" Created="202001271309" GingerVersion="3.5.0.0" Version="2" LastUpdateBy="Sudeepthi.Y" LastUpdate="202001271312" />
+<BusinessFlow Elapsed="14054" Guid="3ddbc9eb-0f33-4a90-9e07-e0750f46b797" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="489cab67-9824-4017-91ff-395189d9d5f2" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Acts>
+<ActBrowserElement Active="True" Description="Go to Url - Technovert | Scaling Digital Business with Cloud and Analytics - Technovert" Guid="a0be6e58-966c-4c16-8e75-6a88ccbcf68d" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="d34eebac-4a13-4bcb-8281-07c28cc4bdda" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="7dabfc97-fba6-41d1-9cfc-f3cb0e575438" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="0ca6bf8b-5010-4829-8d64-5a9653e7c00b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://technovert.com/" />
+<ActInputValue Guid="8d40137b-7825-4c9a-8953-08fd1cf0e9d9" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="39b8dbb7-1f34-42bb-9f84-1317bfe3f315" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="32d21e37-7c04-44e0-a950-1fbcd598e0c8" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+<ActUIElement Active="True" Description="Set Web Element '/html/body/div/header/div[2]/div/div[3]/nav/ul/li[2]/a/span'" Guid="8cc4b24b-69bf-4850-8a9f-b72173bae730" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="97bc3ba2-4646-465f-99c5-67a88b5eb20d" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByXPath" />
+<ActInputValue Guid="2a6b64b1-4a57-48d5-92fa-5351be0b8e87" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html/body/div/header/div[2]/div/div[3]/nav/ul/li[2]/a/span" />
+<ActInputValue Guid="b6c52709-7d9d-4862-8107-cae068f84f98" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Span" />
+<ActInputValue Guid="c7939de4-95a4-4779-9933-536c156afe66" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="ae467ee5-dcf9-4ac1-9c32-f040141337ff" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Products" />
+<ActInputValue Guid="85392c50-3dc2-45bb-a9a5-e96bede4281e" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="fcd45489-9e51-43ce-8cb1-38c16a2e9053" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="4903d3ac-50ac-4ab5-beee-c362e7e59c54" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="d28986b3-53c6-4272-bd0d-2f8c0b4d0dfb" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Set Web Element '/html/body/div/header/div[2]/div/div[3]/nav/ul/li[2]/a'" Guid="430ac62c-aa56-4fb3-a444-cd12408c934e" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6598a7d3-b767-460f-b177-3f8739d2fbdf" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByXPath" />
+<ActInputValue Guid="7815b281-bcbb-460d-ac89-7d5997fbd7ff" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html/body/div/header/div[2]/div/div[3]/nav/ul/li[2" />
+<ActInputValue Guid="79237cae-6345-4df4-a49a-0a1f6336d6f2" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="7ef82ca1-e23d-4c13-92ea-f49e4c689211" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="6e86d1a4-caf3-4ec2-b8a0-b92ff286fe27" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://technovert.com/products/" />
+<ActInputValue Guid="8da8838c-ebc4-4a5e-b920-6de6e950c0b0" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="08dd1f46-2df1-4e66-b588-c714082c0302" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="a6c61bc2-4f4e-4c9a-a422-6fa537bc74e7" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="0af15d33-3c54-41dc-adc1-7bd80a951e5a" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="c606b22a-6ce3-4c18-aaae-d6d8d8c5342f" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="489cab67-9824-4017-91ff-395189d9d5f2" ActivityName="Activity 1" Guid="3bf18c86-2392-4a8f-8e01-6a8c445e544c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="9515b1c5-dc01-4d73-a5c2-face9b7a9319" LastExecutingAgentName="MyWebApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

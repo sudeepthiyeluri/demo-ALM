@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="9d800542-7349-4dd2-91bd-f93d2f38aed6" ItemType="HTMLReportConfiguration" CreatedBy="Sudeepthi.Y" Created="202001271309" GingerVersion="3.5.0.0" Version="1" LastUpdateBy="Sudeepthi.Y" LastUpdate="202001271309" />
+<HTMLReportConfiguration Guid="9d800542-7349-4dd2-91bd-f93d2f38aed6" IsDefault="True" LogoBase64Image="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" Name="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReportLowerLevelToShow="ActionLevel">
+<ActionFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="249c71a7-9b8e-47f9-b546-1fa8d77cbdc6" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="9c767ae0-8157-4b1d-abf5-f54e30dfbdd4" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="69bcc54c-b227-4d30-9f93-909617d0afc0" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ActionType" Guid="894db664-c6d3-484a-b42b-125eff5ddb0d" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="ada28668-5da4-4a3d-bd18-74f26c44a2ea" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="61af97ea-dc9f-4daa-ab26-3cfc39f97220" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ElapsedSecs" Guid="0605a2ac-e2bd-4a43-8d0c-f32897a5793a" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="CurrentRetryIteration" Guid="b1e2f8ec-04b9-4f9d-a7f7-281d7ff9f6d3" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Status" Guid="4ba1006c-f529-4d4f-9ea8-5fed43cb8c52" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Error" Guid="0419170d-c287-4d56-aa74-e4a31f976989" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExInfo" Guid="1d259ed3-9e70-459e-9389-1e9f330c56f9" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="InputValuesDT" Guid="0c0df908-1847-492e-9cae-58c5566afff1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="OutputValuesDT" Guid="552040f2-8f3b-4461-a5dd-9f091f6809c8" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="FlowControlDT" Guid="b56ef1c9-9d60-4ca9-9930-b9351e45a3c0" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ScreenShot" Guid="91943f85-8522-4612-bd00-e7b47e318ee4" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ScreenShots" Guid="46ca1f06-c139-4ba1-af63-1f4c2df7e5cb" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActionFieldsToSelect>
+
+<ActivityFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="b3887f0f-9a83-44a2-b58b-99c8f2ee60b7" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivityGroupName" Guid="cf43d3ea-cfa8-41bf-82aa-2e05a7dc016c" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivityName" Guid="0d1360ca-e431-4094-a39b-be00d122bb49" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="3110c510-1aed-4a52-b413-aaa3796ea5df" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="3a41308b-e6bf-4b17-84ca-f472e2d3284b" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="42cb89f1-404a-41fc-ac9e-bb00f5d68b05" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="6ce62b94-8b4e-4913-99d9-16f2e1961e4d" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ElapsedSecs" Guid="beb3f554-157c-4900-b1ae-5a636c9013f4" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="2f579919-a1ec-4e85-97b1-904a8575f254" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="TotalActions" Guid="ddc8ecd1-4e28-4595-9fa9-1fc744b7d32a" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="PassPercent" Guid="7018555b-1c5d-4692-ad00-f6a5995b7276" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesDetails" Guid="0ca38bc7-a373-421e-88b7-1be5b6a9f416" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ActionsDetails" Guid="9ef41d59-6743-45c2-b2ba-7a2628424c7e" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivityFieldsToSelect>
+
+<ActivityGroupFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="a65c158a-df66-4976-b129-ad3868851be9" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="599eb40c-9fcc-4600-b2d6-c46896f820cf" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="AutomationPrecentage" Guid="d0ea8b19-d079-4d2c-abe6-64dd6a1dfe52" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="b924e85d-9747-41f2-a05f-b63768c91fcf" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="c1aa1af2-ed88-438e-a8c5-170c715b0ea0" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="a7dd3b05-c8c2-49aa-9fba-282250b9d01e" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="ebab4bee-8160-4c68-9c7c-14e026f94312" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivityDetails" Guid="17655076-e9d2-4225-b1fc-4ded2fb5347a" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivityGroupFieldsToSelect>
+
+<BusinessFlowFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="bf3a9e19-8e15-467e-bc8f-f547a802e8ca" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="6251e3a9-9cbb-4d8e-b4e8-c9ef48474e18" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="14725c42-7f0a-4b84-9589-059603aec9b5" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="9d080b9c-f856-487f-96ec-a22303321901" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Environment" Guid="9dfd0905-e43b-49b3-a142-1099425a6738" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="c2de63aa-0d52-4d9f-8b05-f1cbceb041c8" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="b7948cf6-0d9e-454b-98bd-86160efe530c" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="f7a22b03-fc9c-44ca-acfe-35845351a616" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="879fa120-d076-45a9-87bb-f364ae2f069d" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="TotalActivities" Guid="c53653e2-4796-4c21-adcf-90547be0e869" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="PassPercent" Guid="63e8fa6c-4a86-4c42-b47e-17c32f170e22" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesDetails" Guid="3c7c8f9b-034b-4fd3-80a3-6e0f4431d805" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="SolutionVariablesDetails" Guid="19f0764f-31a3-4481-9ba7-70044ae19b97" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivityDetails" Guid="8b3b33b9-f02f-426f-9871-40b35e267ec5" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="BFFlowControlDT" Guid="01bbb262-ed22-4395-b263-31acfb6e9c4f" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowFieldsToSelect>
+
+<EmailSummaryViewFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="9c46a839-1aaf-4ac2-bae3-0d90d37b030f" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="6ab47915-c351-406b-a3b8-45659f6573d9" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="5eb4b61a-ff3d-4c22-bec7-ef4dc97b8559" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="5f2e95c8-657c-4e85-8794-3183bf1cdf9a" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionDuration" Guid="24ebab9a-3977-484d-8e64-6d647718bc8d" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerRunnersPassRate" Guid="6689a336-bb1c-4804-a217-105c85462a1a" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="RunSetExecutionRate" Guid="97553727-468a-4f1e-8c28-758c84c7d58d" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EnvironmentsDetails" Guid="d4c7fbd8-7e48-4d6a-8ef4-9b2b15e940ae" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerVersion" Guid="a6c56186-983e-49a8-be65-77161fbb417f" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="MachineName" Guid="a7165af6-e59d-4ac2-af43-56e534e616c7" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedbyUser" Guid="b179783d-f347-4a0f-9154-458e5e63e227" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionStatisticsDetails" Guid="3abc9201-8b85-4934-96a9-d16cefbac06d" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedBusinessFlowsDetails" Guid="61b6eb1c-254f-44b8-b159-6e192928607c" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedActivitiesDetails" Guid="2d28aba4-518b-43af-80c1-58ae55a61e78" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="FailuresDetails" Guid="1f07dedb-c76f-4de2-8318-ac006a32a0e1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</EmailSummaryViewFieldsToSelect>
+
+<GingerRunnerFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="b2cc8dfe-d01e-4068-bd1e-82d72abbcee8" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="c326528c-9cc2-46c3-90f1-e3ce372eadb4" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="418d267e-1167-4ae1-9409-98cc34d8fef5" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EnvironmentName" Guid="c2edbd93-5a74-44a1-8dec-7cd0bab12a67" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="7a04d291-8690-4010-82e6-57df2615cb51" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="b8d3bc46-118a-4e49-aaef-ea9d04460db5" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="a66e1008-ecb0-40fa-b213-2f880af61970" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerExecutionStatus" Guid="5be85064-22a8-4b5e-8cab-56d30a1454c8" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="TotalBusinessFlows" Guid="56edc745-3c85-43a4-a67d-e88b02570b73" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="BusinessFlowsPassRate" Guid="0a752028-e912-4712-befa-c0737b314163" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ApplicationAgentsMapping" Guid="f24b0676-1e1a-4f66-a902-322307b5cba8" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="BusinessFlowsDetails" Guid="dfa918f3-1d71-41f1-bd41-42615badf521" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</GingerRunnerFieldsToSelect>
+
+<RunSetFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="0dbc5493-c66b-4f84-a728-b85526b05121" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="bdeba599-e87a-49bf-bfea-4d03da7958ae" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="176cff2b-11df-4623-8acb-e50a76fa73a2" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="697e52b0-4e27-4b2d-ad1a-d6373fa1dba7" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionDuration" Guid="ae1746d8-62cd-4dd6-92ae-9581e86f7606" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerRunnersPassRate" Guid="d6c96c25-e2d6-4380-8528-e47ee00acf0d" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="RunSetExecutionRate" Guid="f1edfd5e-63f0-4c45-830d-309e4044b3a6" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="EnvironmentsDetails" Guid="10fc7c7e-3d14-476d-bffd-247dabb688cf" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerVersion" Guid="e16551a0-05b7-460d-8fc9-97baf6526b43" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="MachineName" Guid="2de6b577-2637-45df-a745-116f2dc85e4d" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedbyUser" Guid="ec707353-a190-4d89-b50f-7ffa656e8611" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionStatisticsDetails" Guid="cb53b867-c2b0-4c46-a168-5f1f966966b2" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedBusinessFlowsDetails" Guid="8c134af0-fe8f-4815-a587-090a9c423ec2" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedActivitiesDetails" Guid="cb207e58-e2fe-47f6-8505-4b212a87e380" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<HTMLReportConfigFieldToSelect FieldKey="FailuresDetails" Guid="c58c13e9-8dde-4ed8-b2ae-7cc30d5237ec" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</RunSetFieldsToSelect>
+</HTMLReportConfiguration></GingerRepositoryItem>

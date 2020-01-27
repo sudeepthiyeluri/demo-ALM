@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <title>Ginger Activity Report</title>
+    <meta name="description" content="Static &amp; Dynamic Tables" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <style>@font-face {font-family:Source Sans Pro;src: url('./../assets/fonts/SourceSansPro-Regular.ttf');}</style><link rel='stylesheet' href='./../assets/css/bootstrap.css' /><link rel = 'stylesheet' href ='./../assets/css/styles.css' /> <link rel='stylesheet' href='./../assets/css/font-awesome.css' />
+    <style type="text/css">
+        
+    </style>
+    <script src='./../assets/js/jquery.js'></script><script src='./../assets/js/bootstrap.js'></script><script src='./../assets/js/babel.js'></script><script src='./../assets/js/react-with-addons.min.js'></script><script src='./../assets/js/react-dom.min.js'></script><script src='./../assets/js/prop-types.min.js'></script><script src='./../assets/js/Recharts.min.js'></script><script src='./../assets/js/polyfills.js'></script><script src='./../assets/js/barchart.jsx'></script><script src='./../assets/js/donutchart.jsx'></script><script src='./../assets/js/circlechart.jsx'></script><script src='./../assets/js/piechart.jsx'></script>
+    <script type="text/jsx">
+        function CreateChart(inputDatax, id, ChartTitle, Total) {
+	const inputData = [];
+	var j = 0;
+	for (var i = 0; i < inputDatax.length; i++) {
+		if (inputDatax[i].value !== 0) {
+			inputData[j] = inputDatax[i];
+			j = j + 1;
+		}
+	}
+	const { PieChart, Pie, Legend, Cell, XAxis, YAxis, CartesianGrid, Tooltip } = Recharts;
+	const RADIAN = Math.PI / 180;
+	//const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+	//	const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+	//	const x = cx + radius * Math.cos(-midAngle * RADIAN);
+	//	const y = cy + radius * Math.sin(-midAngle * RADIAN);
+	//	return (
+	//		<text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
+	//			{`${(percent * 100).toFixed(0)}%`}
+	//		</text>
+	//	);
+	//};
+	//const CustomLabel = React.createClass({
+	//	propTypes: {
+	//		type: PropTypes.string,
+	//		payload: PropTypes.array,
+	//		label: PropTypes.string,
+	//	},
+	//	render() {
+	//		const { cx, cy, midAngle, innerRadius, outerRadius, startAngle, endAngle,
+	//			fill, payload, percent, value, active, label, name, color } = this.props;
+
+	//		const sin = Math.sin(-RADIAN * midAngle);
+	//		const cos = Math.cos(-RADIAN * midAngle);
+	//		const sx = cx + (outerRadius + 5) * cos;
+	//		const sy = cy + (outerRadius + 5) * sin;
+	//		const mx = cx + (outerRadius + 20) * cos;
+	//		const my = cy + (outerRadius + 20) * sin;
+	//		const ex = mx + (cos >= 0 ? 1 : -1) * 20;
+	//		const ey = my;
+	//		const textAnchor = cos >= 0 ? 'start' : 'end';
+
+	//		return (
+	//			<g>
+	//				<path d={`M${sx},${sy}L${mx},${my}L${ex},${ey}`} stroke={fill} fill="none" />
+	//				<circle cx={ex} cy={ey} r={2} fill={fill} stroke="none" />
+	//				<text x={ex + (cos >= 0 ? 1 : -1) * 12} y={ey} textAnchor={textAnchor} size="12" fontSize="12" fill={fill}>
+	//					{`${name}(${value})`}
+	//				</text>
+	//			</g>
+	//		);
+	//	}
+
+
+	//});
+
+	function Getcolor(props) {
+		if (props.name === "Passed")
+			return '#54A81B';
+		else if (props.name === "Failed")
+			return '#E31123';
+		else if (props.name === "Stopped")
+			return '#ED5588';
+		else if (props.name === "Other")
+			return '#1B3651';
+		else if (props.name === "NA")
+			return '#e3dfdb';
+	}
+
+	const DonutChart = React.createClass({
+		render() {
+			const { value, name } = this.props;
+			return (
+				<PieChart width={300} height={500}>
+					<Pie data={inputData} nameKey="name" dataKey="value" cx={180} cy={150} innerRadius={90} outerRadius={110} fill="#82ca9d" label>
+						{
+							inputData.map((entry, index) => <Cell fill={Getcolor(inputData[index])} />)
+						}
+					</Pie>
+				</PieChart>
+			);
+		}
+	})
+
+	ReactDOM.render(
+		<DonutChart />,
+		document.getElementById(id)
+
+	);
+}
+    </script>   
+</head>
+<body class="no-skin"">
+    <div style="background-color:#EBEFF2">
+        <div style="height:50px;background-color:#AAD0EE">
+        </div>
+        <div id="navbar" class="navbar navbar-default">
+            <div class="navbar-container" id="navbar-container">
+                <div class="navbar-header pull-left" style="margin-top:10px">
+                    <img alt='Embedded Image' src='./../assets/img/QA_Accelerator.png' height='50' style='padding-left:85px'/>
+                </div>
+                <div style="float:left;display:block;width:47%">
+                    <img alt='Embedded Image' width='274px' height='74px' src='./../assets/img/TechnovertLogo.png' style='float:right;padding-left:70px'/>
+                </div>
+                <!--<div class="navbar-buttons navbar-header pull-right" style="margin-right:80px;">
+                    <img alt='Embedded Image' width='170' height='75' src='./../assets/img/CustomerLogo.png' />
+                </div>-->
+            </div>
+        </div>
+        <div class="main-container" id="main-container">
+            <div class="main-content">
+                <div class="main-content-inner">
+                    <div class="breadcrumbs" id="breadcrumbs">
+                    </div>
+                    <div class="page-content">
+                        <div class="page-header">
+                            <h1 class="clss1" id="breadcum">
+                                <a href=".\..\..\..\GingerExecutionReport.html"></a>
+                                <small style="text-transform: capitalize">
+                                    
+                                    <a href=".\..\..\GingerRunnerReport.html"></a>
+                                    
+                                    <a href=".\..\BusinessFlowReport.html">Flow 1</a>
+                                    <i class='ace-icon fa fa-angle-double-right clsc1'></i>
+                                    <a id="activitiesGroupLink"></a>
+                                    <a href=".\ActivityReport.html">Activity 1</a>
+                                </small>
+                            </h1>
+                            <h1 id="clsh1" style="text-transform: capitalize">
+                                QA-Accelerator Execution Report
+                            </h1>
+                            <div>
+                                <table style="width:100%">
+                                    <tr>
+                                        <td align="left">
+                                            <span class="clsb1" id="b1">Activity Execution Details - 'Activity 1'</span>
+                                        </td>
+                                        <td align="right">
+                                            <div style="margin-right:5px">
+                                                <!--Prev_ActivityLink_Start--><!--Prev_ActivityLink_End-->
+                                                <!--Next_ActivityLink_Start--><!--Next_ActivityLink_End-->
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content" style="margin-top:0 auto">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="panel-heading">
+                                            <a class="accordion-toggle" data-toggle="collapse" href="#collapseActivity">
+                                                <i class="ace-icon fa fa-angle-down bigger202" data-icon-hide="ace-icon fa fa-angle-down" data-icon-show="ace-icon fa fa-angle-right"></i>
+                                                <h4 class="orangetxt"> Activity General Details </h4>
+                                            </a>
+                                        </div>
+                                        <div class="collapse in tableScroll" id="collapseActivity">
+                                            <table class="table table-striped table-bordered table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <td>Execution Sequence</td><td>Activity Group Name</td><td>Activity Name</td><td>Description</td><td>Run Description</td><td>Execution Start Time</td><td>Execution End Time</td><td>Elapsed</td><td>Execution Status</td><td>Number Of Actions</td><td>Actions Pass Rate</td>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td><td>Group</td><td>Activity 1</td><td> N/A </td><td> N/A </td><td>1/27/2020 6:42:34 PM</td><td>1/27/2020 6:42:47 PM</td><td>00:00:12 </td><td><label class='StatusFailed'>Failed</label></td><td>3</td><td>67 %</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--VariablesDetails-->
+                    <div class="page-content">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--VariablesDetails-->
+                    <!--ActionsDetails_Start-->
+                    <div class="page-content" style="margin-top:0 auto">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="panel-heading">
+                                            <a class="accordion-toggle" data-toggle="collapse" href="#collapseAction">
+                                                <i class="ace-icon fa fa-angle-down bigger202" data-icon-hide="ace-icon fa fa-angle-down" data-icon-show="ace-icon fa fa-angle-right"></i>
+                                                <h4 class="orangetxt"> Activity Actions Execution Details </h4>
+                                            </a>
+                                        </div>
+                                        <div class="collapse in" id="collapseAction">
+                                            <div class="row">
+                                                <div class="percentSpace" style="position:relative;left:30%;width:70%">
+                                                    <div class="col-xs-6">
+                                                        <div style='float:left' id="passContainer">
+                                                            <script type="text/jsx"
+                                                                    data-presets="es2017,react,stage-0"
+                                                                    data-plugins="transform-decorators-legacy">
+
+                                                                const PassStat = [{name: 'Passed', value: 67}, {name: 'Failed', value: 33},
+                                                                {name: 'Stopped', value: 0}, {name: 'Other', value: 0}
+                                                                ]
+
+                                                                CreateChart(PassStat, 'passContainer', 'Passed', 2, 67 );
+                                                            </script>
+                                                        </div>
+                                                        <!--<div style='height: 150px; float:left' id="failContainer">
+                                                            <script type="text/jsx"
+                                                                    data-presets="es2017,react,stage-0"
+                                                                    data-plugins="transform-decorators-legacy">
+
+                                                                const failStat = [{name: 'Failed', value: 33}]
+
+                                                                CreateChart(failStat, 'failContainer', 'Failed', 1,  33 );
+                                                            </script>
+                                                        </div>
+                                                        <div style='height: 150px; float:left' id="stoppedContainer">
+                                                            <script type="text/jsx"
+                                                                    data-presets="es2017,react,stage-0"
+                                                                    data-plugins="transform-decorators-legacy">
+
+                                                                const StopStat = [{name: 'Stopped', value: 0}]
+
+                                                                CreateChart(StopStat, 'stoppedContainer', 'Stopped', 0, 0 );
+                                                            </script>
+                                                        </div>
+                                                        <div style='height: 150px; float:left' id="otherContainer">
+                                                            <script type="text/jsx"
+                                                                    data-presets="es2017,react,stage-0"
+                                                                    data-plugins="transform-decorators-legacy">
+
+                                                                const otherStat = [{name: 'Other', value: 0}]
+
+                                                                CreateChart(otherStat, 'otherContainer', 'Other', 0, 0 );
+                                                            </script>
+                                                        </div>-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tableScroll">
+                                                <table class="table table-striped table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Execution Sequence</td><td>Description</td><td>Run Description</td><td>Action Type</td><td>Execution Start Time</td><td>Execution End Time</td><td>Elapsed (Seconds)</td><td>Current Retry Iteration</td><td>Execution Status</td><td>Error Details</td><td>Extra Details</td><td>Screenshot</td>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody>
+                                                        <tr><td>1</td><td><a href='.\1 Go to Url - Technovert  Scal\ActionReport.html'>Go to Url - Technovert | Scaling Digital Business with Cloud and Analytics - Technovert</a></td><td> N/A </td><td>BrowserControl: GotoURL</td><td>1/27/2020 6:42:34 PM</td><td>1/27/2020 6:42:41 PM</td><td>6.804</td><td>0</td><td><label class='StatusPassed'>Passed</label></td><td></td><td>1/27/2020 6:42:41 PM</td><td></td></tr><tr><td>2</td><td><a href='.\2 Set Web Element htmlbodydivh\ActionReport.html'>Set Web Element '/html/body/div/header/div[2]/div/div[3]/nav/ul/li[2]/a/span'</a></td><td> N/A </td><td>UI Element Action. Click</td><td>1/27/2020 6:42:41 PM</td><td>1/27/2020 6:42:45 PM</td><td>4.048</td><td>0</td><td><label class='StatusPassed'>Passed</label></td><td></td><td>1/27/2020 6:42:45 PM</td><td></td></tr><tr><td>3</td><td><a href='.\3 Set Web Element htmlbodydivh\ActionReport.html'>Set Web Element '/html/body/div/header/div[2]/div/div[3]/nav/ul/li[2]/a'</a></td><td> N/A </td><td>UI Element Action. Click</td><td>1/27/2020 6:42:45 PM</td><td>1/27/2020 6:42:47 PM</td><td>1.296</td><td>0</td><td><label class='StatusFailed'>Failed</label></td><td>invalid selector: Unable to locate an element with the xpath expression /html/body/div/header/div[2]/div/div[3]/nav/ul/li[2 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div/header/div[2]/div/div[3]/nav/ul/li[2' is not a valid XPath expression.
+  (Session info: chrome=79.0.3945.130)</td><td>1/27/2020 6:42:45 PM</td><td align='center'><img style='display:block;' src='3 Set Web Element htmlbodydivh\Screenshots\ScreenShot_3_1.png' alt='Set Web Element '/html/body/div/header/div[2]/div/div[3]/nav/ul/li[2]/a' - Action - Screenshot' width='250' height='112' id='ScreenShot_Set Web Element htmlbodydivhea3_1' onclick='show_modal("ScreenShot_Set Web Element htmlbodydivhea3_1")'></img></td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ActionsDetails_End-->
+
+                    <div class="alert alert-info" style="margin-top:10px">Created By QA-Accelerator Version : 3.5.1.1(Alpha, Build Time: 27-Jan-2020 05:59 PM) | Used Report Template : 'Default' | Report Creation Time : 1/27/2020 6:42:49 PM</div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-inner">
+                    <div class="footer-content">
+                    </div>
+                </div>
+            </div>
+            <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+                <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+            </a>
+        </div>
+
+        <!-- basic scripts -->
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="current_image_in_modal">
+            <div id="caption">sdafasd asdfasdf</div>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            function show_modal(image_id) {
+                var img = document.getElementById(image_id);
+                var modalImg = document.getElementById("current_image_in_modal");
+                var captionText = document.getElementById("caption");
+
+                modal.style.display = "block";
+                modalImg.src = img.src;
+                captionText.innerHTML = img.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            function getQueryStringParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
+            window.onload = function () {
+                var folderName = getQueryStringParameterByName('Parent_ActivitiesGroup_Folder_Name');
+                var Name = getQueryStringParameterByName('Parent_ActivitiesGroup_Name');
+                var ActivitiesGroupCalledAsRoot = getQueryStringParameterByName('ActivitiesGroupCalledAsRoot');
+                if (folderName == null || Name == null || ActivitiesGroupCalledAsRoot == null || folderName == '' || Name == '') {
+
+                }
+                else {
+                    if (ActivitiesGroupCalledAsRoot == 'true') {
+                        document.getElementById("activitiesGroupLink").outerHTML = "<a href='.\/..\/ActivityGroupReport.html'>" + Name + " </a><i class='ace-icon fa fa-angle-double-right clsc1'></i>";
+                    }
+                    else {
+                        document.getElementById("activitiesGroupLink").outerHTML = "<a href='.\/..\/ActivityGroups\/" + folderName + "\/ActivityGroupReport.html'>" + Name + " </a><i class='ace-icon fa fa-angle-double-right clsc1'></i>";
+                    }
+                }
+            }
+        </script>
+
+    </div>
+</body>
+</html>
